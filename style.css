@@ -1,0 +1,179 @@
+
+* {
+    /* border: 1px red dotted; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Nav Bar */
+.nav{
+    display: flex;
+    background: rgb(17, 98, 204);
+    align-items: center;
+    padding: 20px;
+}
+
+h1{
+    color: whitesmoke;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: end;
+    margin-left: auto;
+}
+
+li{
+    margin-right: 12px;
+}
+
+.nav_left{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+button{
+    font-size: 12pt;
+    height: 35px;
+    width: 100px;
+    background: rgb(15, 130, 197);
+    color: whitesmoke;
+    border-radius: 20px;
+    border-color: mintcream;
+    box-shadow: black 2px 2px 1px;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* Personal Profile Card */
+.container{
+    width: 700px;
+    margin: 20px auto;
+    margin-top: 20px;
+    display: flex;
+    padding: 30px;
+}
+
+.uc{
+    color: teal;
+}
+
+.colorbox{
+    background: rgb(4,175,240);
+    background: linear-gradient(0deg, rgba(4,175,240,1) 0%, rgba(45,119,253,1) 100%);;
+    width: inherit;
+    height: 80px;
+}
+
+.hs{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+
+.text{
+    position: relative;
+    margin: 0px 0px 0px 20px;
+    bottom: 50px;
+}
+
+p{
+    margin: 10px 0px 0px 0px;
+}
+
+.loctext{
+    position: relative;
+    display: inline;
+    bottom: 12px;
+}
+
+.settings{
+    position: relative;
+    top: 15px;
+    display: inline;
+}
+
+a{
+    position: relative;
+    top: 5px;
+}
+
+/* cards padding */
+
+.user_card, .connectreq, .connects, .edu{
+    box-shadow: grey 2px 2px 2px 2px;
+    margin-top: 20px;
+}
+/* Connection Requests */
+
+h4, #smaller{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    text-align: center;
+    height: 50px;
+}
+
+.CR, .Conn{
+    padding: 10px;
+}
+
+/* Education Card */
+#edu_date{
+    color: gray;
+}
+.edu_content{
+    padding: 15px;
+}
+
+
+/* Other users and "view more" */
+.person{
+    display: inline-block;
+    position: relative;
+    bottom: 12px;
+}
+.connecticon{
+    padding-left: 15px;
+}
+.accept{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.VM{
+    display: inline-block;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    color: teal;
+}
+#viewmore{
+    border: gray 1px 1px;
+}
+
+/* Float connections and requests to the right */
+.parent{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+.user_card{
+    height: 330px;
+}
+.useredu{
+    flex: 2;
+    padding-right:30px;
+}
+
+.right{
+    display: inline-block;
+    float: right;
+}
